@@ -3,11 +3,11 @@ This script is created by Niveditha Parthasarathy
 to create a single model file from a folder full of 
 BC03 (Bruzual & Charlot 2003) models
 
-This BC03 model compilation was used for testing
+The BC03 model compilation was used for testing
 with some outliers in the observations as well as
 the sMILES models
 
-It craetes a single model file to be compatible
+It creates a single model file to be compatible
 with Analyzer of integrated Spectra for Age
 
 """
@@ -108,3 +108,4 @@ def combine_spec_files_with_indices(input_folder='bc03_models_resampled_step_1',
 
 
 combine_spec_files_with_indices()
+
