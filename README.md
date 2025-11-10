@@ -9,3 +9,10 @@ This script is used to create a single model file from a folder full of BC03 (Br
 
 ## BC03_filtered_model_compilation.py
 This script is used to create a single model file from a folder full of BC03 (Bruzual & Charlot 2003) models but retaining only the models mentioned in a text document 'base_info_file'. It creates a single model file to be compatible with Analyzer of integrated Spectra for Age.
+
+## BC03_results_indexing.py
+This script is used for reading the results obtained from the full-spectrum fitting performed with Analyzer of integrated Spectra for Age, using the BC03 (Bruzual & Charlot 2003) models.
+
+- results_file is the results file txt document.
+- info_file is the bc03 model Index to age, metallicity information matching document.
+- output_csv is the name of the results file with the matched information added to it.
